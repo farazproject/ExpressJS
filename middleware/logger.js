@@ -3,4 +3,5 @@ const logger = (req, res, next) => {
   next();
 };
 
-module.exports = logger; 
+module.exports = logger; // This middleware logs the HTTP method and URL of incoming requests
+// and then passes control to the next middleware or route handler.

@@ -1,7 +1,7 @@
 // 1. Import Express
 const express = require('express');
-const logger = require('../ExpressJS/middleware/logger');
-const usersRouter = require('./routes/calculator');
+const logger = require('./middleware/logger');
+const usersRouter = require('./routes/userroutes');
 
 const app = express();
 const PORT = 3000;
